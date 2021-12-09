@@ -5,16 +5,19 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#e8eaed',
   },
+  backgroundImg: {
+    flex: 1,
+  },
   tarefasContainer: {
     paddingTop: 88,
     paddingHorizontal: 20,
   },
   tituloSecao: {
+    color: '#fff',
     fontSize: 24,
     fontWeight: 'bold',
   },
   tarefas: {
-    backgroundColor: '#e8eaed',
     marginTop: 30,
   },
   tarefa: {
@@ -32,11 +35,11 @@ export default StyleSheet.create({
     flexWrap: 'wrap',
   },
   tarefaBox: {
-    backgroundColor: '#55bcf6',
+    backgroundColor: '#FAAA6E',
     width: 24,
     height: 24,
     opacity: 0.4,
-    borderRadius: 5,
+    borderRadius: 50,
     marginRight: 15,
   },
   tarefaDesc: {
@@ -45,8 +48,36 @@ export default StyleSheet.create({
   tickBox: {
     width: 12,
     height: 12,
-    borderColor: '#55bcf6',
+    borderColor: '#FAC989',
     borderWidth: 2,
     borderRadius: 5,
   },
+  textInputContainer: {
+    position: 'absolute',
+    bottom: 60,
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  textInput: {
+    paddingVertical: 15,
+    paddingHorizontal: 15,
+    backgroundColor: '#fff',
+    borderRadius: 60,
+    borderColor: '#c0c0c0',
+    borderWidth: 1,
+    width: 250,
+  },
+  btn: {
+    width: 60,
+    height: 60,
+    backgroundColor: '#fff',
+    borderRadius: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderColor: '#c0c0c0',
+    borderWidth: 1,
+  },
+  btnText: {},
 });
